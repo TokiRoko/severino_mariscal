@@ -31,10 +31,12 @@
     section {
         margin: 0.5%;
     }
-    .section__pic-container {
+    .section__pic-container-1 {
+        transform: translateX(-110px);
+        z-index: -10;
         width: 275px;
         height: 275px;
-        margin: 0 auto 2rem;
+        margin: 0 auto;
     }
     .about-containers {
         margin-top: 0;
@@ -86,8 +88,9 @@
         gap: 0.5rem;
         text-align: center;
     }
-    .section__pic-container {   
+    .section__pic-container-2 {   
         width: auto;
+        padding: 2rem;
         height: 46vw;
         justify-content: center;
     }

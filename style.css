@@ -120,6 +120,7 @@ a:hover{
 
 .menu-links.open {
     max-height: 300px;
+    z-index: 1;
 }
 
 .hamburger-icon.open span:first-child{
@@ -166,7 +167,7 @@ section {
     height: 80vh;
 }
 
-.section__pic-container {
+.section__pic-container-1 {
     display: flex;
     height: 400px;
     width: 400px;
@@ -300,10 +301,26 @@ section {
     height: 80%;
 }
 
-.section__pic-container {
+.section__pic-container-2 {
+    display: flex;
     height: 400px;
     width: 400px;
     margin: auto 0;
+    animation: bob 5s ease-in-out infinite;
+}
+
+@keyframes bob {
+    0%{
+        scale: 75%;
+    }
+
+    50%{
+        scale: 100%;
+    }
+
+    100% {
+        scale: 75%;
+    }
 }
 
 /* EXPERIENCE SECTION */
