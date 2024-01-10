@@ -19,7 +19,7 @@
 <br>
 
 # Other thoughts that might be noteworthy
-- Be more <h3>creative</h3>
+- Be more creative.
 - Use some reference if you're stuck.
 - Understand the functions of the tags.
 - Start simple rather than to start big.
