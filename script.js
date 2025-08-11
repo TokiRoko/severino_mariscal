@@ -12,7 +12,7 @@ const appearOptions = {
 };
 
 const appearOnScroll = new IntersectionObserver(function(
-    entries, 
+    entries,
     appearOnScroll
     ) {
         entries.forEach(entry => {
@@ -23,7 +23,7 @@ const appearOnScroll = new IntersectionObserver(function(
                 appearOnScroll.unobserve(entry.target);
             }
         })
-    }, appearOptions);
+    }, appearOptions);  
 
 faders.forEach(fader => {
     appearOnScroll.observe(fader);
