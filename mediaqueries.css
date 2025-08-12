@@ -7,6 +7,7 @@
     .about-containers {
         flex-wrap: wrap;
     }
+
 }
 
 @media screen and (max-width: 1160px) {
@@ -32,12 +33,19 @@
         margin: 0.5%;
     }
     .section__pic-container-1 {
-        transform: translateX(-110px);
         justify-content: center;
         z-index: -10;
         width: 275px auto;
         height: 275px auto;
         margin: 0 auto;
+    }
+    .contact-info-upper-container {
+        flex-wrap: wrap;
+    }
+    .section__pic-container-2 {
+        align-items: center;
+        width: auto;
+        justify-content: center;
     }
     .about-containers {
         margin-top: 0;
@@ -71,7 +79,7 @@
         padding: 2vh;
     }
 
-    .contact-info-upper-container, .btn-container {
+    .btn-container {
         flex-wrap: wrap;
     }
     .contact-info-container {
@@ -100,9 +108,8 @@
 
     .section__pic-container-1 {
         padding: 2rem;
-        height: 46vw;
-        display: flex;
-        justify-content: center;
+        height: 46vh;
+        /* justify-content: center; */
     }
 
     .section__text__p2 {
