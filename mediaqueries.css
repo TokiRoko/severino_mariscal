@@ -35,8 +35,8 @@
     .section__pic-container-1 {
         justify-content: center;
         z-index: -10;
-        width: 275px auto;
-        height: 275px auto;
+        width: auto;
+        height: 275px;
         margin: 0 auto;
     }
     .contact-info-upper-container {
@@ -58,7 +58,7 @@
         height: 40vh;
     }
     #profile {
-        height: 83vh;
+        height: auto;
         margin-bottom: 0;
     }
     article {
@@ -107,7 +107,9 @@
 
     .section__pic-container-1, .profile-pic {
         width: auto;
-        padding: 2rem;
+        /*JUST REMOVE JUST IN CASE YOU
+            DON'T LIKE IT.*/
+        /* padding: 2rem; */ 
         height: 46vw;
     }
 
