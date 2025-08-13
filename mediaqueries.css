@@ -58,7 +58,6 @@
         height: 40vh;
     }
     #profile {
-        
         height: 83vh;
         margin-bottom: 0;
     }
@@ -99,17 +98,17 @@
         gap: 0.5rem;
         text-align: center;
     }
-    .section__pic-container-2 {   
+    .section__pic-container-2, .about-pic {   
         width: auto;
         padding: 2rem;
         height: 46vw;
         justify-content: center;
     }
 
-    .section__pic-container-1 {
+    .section__pic-container-1, .profile-pic {
+        width: auto;
         padding: 2rem;
-        height: 46vh;
-        /* justify-content: center; */
+        height: 46vw;
     }
 
     .section__text__p2 {
